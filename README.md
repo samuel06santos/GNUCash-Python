@@ -1,0 +1,2 @@
+# GNUCash-Python-Interactive
+ 

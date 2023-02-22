@@ -1,4 +1,4 @@
-# GNUCash-Python-Interactive
+# GNUCash-Python
  
 ## Aplicação Python - GUI
 - app.py

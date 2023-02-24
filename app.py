@@ -2,6 +2,7 @@ import flet
 from flet import Page, Column, Container, Text, TextField
 from flet.plotly_chart import PlotlyChart
 import plotly.graph_objects as go
+
 import piecash as pc
 
 def Pie(labels, values):
@@ -13,11 +14,10 @@ def Pie(labels, values):
 
 def main(page: Page):
     page.title = "Gráficos - GNUCash"
-    page.theme_mode = "dark"
+    page.theme_mode = "light"
     page.scroll = "adaptive"
     page.padding = 10
-    page.window_height = 500
-    page.window_width = 600
+    page.window_height = 625
     page.window_center()
 
 
@@ -71,7 +71,7 @@ def main(page: Page):
                         Column(
                             controls=
                             [
-                                Text("Gráfico de Pizza", size= 30, weight="bold"),
+                                Text("Gráfico Balanço patrimônial", size= 30, weight="bold"),
                                 text_field,
                             ]
                         )
